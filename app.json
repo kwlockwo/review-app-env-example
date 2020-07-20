@@ -1,0 +1,18 @@
+{
+  "buildpacks": [{ "url": "ttp://github.com/ryandotsmith/null-buildpack.git" }],
+  "description": "Test review app env",
+  "env": {
+    "FOO": "foo"
+  },
+  "formation": { },
+  "name": "review-app-env",
+  "scripts": { },
+  "stack": "heroku-18",
+  "environments": {
+    "review": {
+      "env": {
+        "BAR": "bar"
+      }
+    }
+  }
+}
