@@ -1,5 +1,5 @@
 {
-  "buildpacks": [{ "url": "ttp://github.com/ryandotsmith/null-buildpack.git" }],
+  "buildpacks": [{ "url": "http://github.com/ryandotsmith/null-buildpack.git" }],
   "description": "Test review app env",
   "env": {
     "FOO": "foo"
